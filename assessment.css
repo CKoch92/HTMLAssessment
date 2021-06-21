@@ -1,0 +1,71 @@
+h2, h3, h4, h5{
+  color: turquoise;
+  font-style: san-serif;
+}
+
+tr th {
+  font-weight: bold;
+  color: orange;
+}
+
+#scoreBoard {
+  border: 3px ridge blue;
+  text-align: center;
+}
+
+#teamRoster{
+  list-style: square;
+}
+
+#teamRoster ul {
+  list-style: square;
+}
+
+.hyperLink:hover{
+  background-color: orange;
+  text-decoration: none;
+}
+
+blockquote{
+  background-color: black;
+  color: white;
+}
+
+#teamRoster > li:first-child{
+  width: 295px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-opacity: 0.5;
+}
+
+#teamRoster > li:last-child{
+  width: 295px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+}
+
+#teamRoster img {
+  visibility: hidden;
+}
+
+#teamRoster li ul li:first-child{
+  font-weight: bold;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+}
+
+#scoreBoard thead {
+  background-color: lightblue;
+}
+
+#scoreBoard tbody tr:first-child{
+  background-color: lightpink;
+}
+
+#scoreBoard tbody tr:last-child{
+  background-color: lightblue;
+}
+
+#scoreBoard tfoot{
+  background-color: lightpink;
+}
